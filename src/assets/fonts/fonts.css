@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'Gothic';
+	font-style: medium;
+	font-weight: 500;
+	src: local('Gothic'), url('./all-round-gothic/all-round-gothic-medium.otf');
+}
+
+@font-face {
+	font-family: 'Saygon';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Saygon'), url('./saygon/CASaygonText-Regular.ttf') format('truetype');
+}
