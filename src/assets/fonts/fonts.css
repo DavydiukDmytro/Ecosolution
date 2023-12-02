@@ -18,3 +18,24 @@
 	font-weight: 400;
 	src: local('Sans'), url('./fira-sans/FiraSans-Regular.ttf') format('truetype');
 }
+
+@font-face {
+	font-family: 'Oswald';
+	font-style: bold;
+	font-weight: 700;
+	src: local('Sans'), url('./oswald/Oswald-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Sans'), url('./oswald/Oswald-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Oswald';
+	font-style: medium;
+	font-weight: 500;
+	src: local('Sans'), url('./oswald/Oswald-Medium.ttf') format('truetype');
+}

@@ -3,6 +3,14 @@ import styled from '@emotion/styled';
 export const HeaderContainer = styled.header`
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 128px;
+
+	@media (min-width: 768px) {
+		margin-bottom: 114px;
+	}
+	@media (min-width: 1280px) {
+		margin-bottom: 140px;
+	}
 `;
 
 export const ButtonList = styled.ul`

@@ -27,6 +27,8 @@ html {
 
 body {
 	margin: 0;
+	font-family: 'Sans';
+	font-weight: 400;
 	color: var(--primary-text);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
