@@ -1,9 +1,12 @@
-import { Logo } from '../Logo';
+import { Container } from '../Container';
+import { Header } from '../Header';
 
 export const App = () => {
 	return (
 		<>
-			<Logo />
+			<Container>
+				<Header />
+			</Container>
 		</>
 	);
 };

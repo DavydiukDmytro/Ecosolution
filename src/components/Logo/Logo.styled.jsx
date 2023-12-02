@@ -6,6 +6,7 @@ export const LogoTitle = styled.span`
 	font-family: 'Gothic';
 	font-size: 33px;
 	margin: 0 4px;
+	letter-spacing: -1px;
 `;
 
 export const LogoSpan = styled.span`
@@ -16,6 +17,6 @@ export const LogoSpan = styled.span`
 	text-transform: uppercase;
 `;
 
-export const LogoSpanAccent = styled.span`
+export const AccentText = styled.span`
 	color: var(--accent);
 `;

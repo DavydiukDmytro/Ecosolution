@@ -11,3 +11,10 @@
 	font-weight: 400;
 	src: local('Saygon'), url('./saygon/CASaygonText-Regular.ttf') format('truetype');
 }
+
+@font-face {
+	font-family: 'Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Sans'), url('./fira-sans/FiraSans-Regular.ttf') format('truetype');
+}

@@ -3,7 +3,14 @@
 
 :root {
 	--accent: #97d28b;
+	--secondary-accent: #dcefd8;
 	--primary-text: #173d33;
+	--primary-bg: #f3f5fa;
+	--white: #fff;
+
+	--mobile: 360px;
+	--tablet: 768px;
+	--laptop: 1280px;
 }
 
 html {
@@ -23,6 +30,7 @@ body {
 	color: var(--primary-text);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	background-color: var(--primary-bg);
 }
 
 h1,

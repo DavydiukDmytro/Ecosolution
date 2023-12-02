@@ -1,13 +1,15 @@
-import { LogoContainer, LogoSpan, LogoSpanAccent, LogoTitle } from './Logo.styled';
-import LogoSvg from '../../assets/images/logo.svg';
+import { AccentText, LogoContainer, LogoSpan, LogoTitle } from './Logo.styled';
+import svgSprite from '../../assets/images/svgSprite.svg';
 
 export const Logo = () => {
 	return (
 		<LogoContainer>
-			<img src={LogoSvg} alt='Logo' width={31} />
+			<svg width={31} height={18}>
+				<use xlinkHref={svgSprite + '#icon-logo'} />
+			</svg>
 			<LogoTitle>ecosolution</LogoTitle>
 			<LogoSpan>
-				<LogoSpanAccent>green</LogoSpanAccent>ergy <br /> for life
+				<AccentText>green</AccentText>ergy <br /> for life
 			</LogoSpan>
 		</LogoContainer>
 	);
