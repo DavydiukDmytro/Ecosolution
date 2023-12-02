@@ -1,7 +1,7 @@
 import { Container } from '../Container';
 import { Header } from '../Header';
 
-export const App = () => {
+const App = () => {
 	return (
 		<>
 			<Container>
@@ -10,3 +10,5 @@ export const App = () => {
 		</>
 	);
 };
+
+export default App;
