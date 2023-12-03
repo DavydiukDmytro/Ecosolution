@@ -3,7 +3,7 @@ import svgSprite from '../../assets/images/svgSprite.svg';
 
 export const Logo = () => {
 	return (
-		<LogoContainer>
+		<LogoContainer href='#'>
 			<svg width={31} height={18}>
 				<use xlinkHref={svgSprite + '#icon-logo'} />
 			</svg>

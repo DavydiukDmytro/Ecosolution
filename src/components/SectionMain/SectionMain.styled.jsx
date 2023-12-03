@@ -16,7 +16,7 @@ export const MainWrapper = styled.div`
 	}
 `;
 
-export const Title = styled.h2`
+export const Title = styled.h1`
 	font-family: 'Oswald';
 	font-size: 36px;
 	font-weight: 400;
@@ -56,7 +56,7 @@ export const LearnMoreWrapper = styled.div`
 `;
 
 export const Text = styled.p`
-	display: block;
+	display: inline-block;
 	font-size: 16px;
 	letter-spacing: -0.63px;
 	text-align: justify;

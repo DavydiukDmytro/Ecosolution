@@ -1,8 +1,7 @@
 import { Container } from '../Container';
 import { Header } from '../Header';
-import { Section } from '../Section';
+import { SectionAbout } from '../SectionAbout';
 import { SectionMain } from '../SectionMain';
-import { Title } from '../SectionMain/SectionMain.styled';
 
 export const App = () => {
 	return (
@@ -11,9 +10,7 @@ export const App = () => {
 				<Header />
 				<main>
 					<SectionMain />
-					<Section>
-						<Title>Main values of our company</Title>
-					</Section>
+					<SectionAbout />
 				</main>
 			</Container>
 		</>

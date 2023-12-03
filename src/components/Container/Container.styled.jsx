@@ -18,6 +18,6 @@ export const ContainerMain = styled.div`
 
 	@media (min-width: 1280px) {
 		width: var(--laptop);
-		padding: 24px 100px 40px 100px;
+		padding: 24px 20px 40px 20px;
 	}
 `;
