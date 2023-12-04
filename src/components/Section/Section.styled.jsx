@@ -10,4 +10,6 @@ export const SectionWrapper = styled.section`
 	@media (min-width: 1280px) {
 		padding: 60px 0;
 	}
+
+	${({ center }) => center && `text-align: center;`}
 `;
