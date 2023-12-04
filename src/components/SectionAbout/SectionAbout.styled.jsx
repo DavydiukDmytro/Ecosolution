@@ -12,6 +12,8 @@ export const TitleWrapper = styled.div`
 `;
 
 export const Title = styled.h2`
+	display: inline-block;
+	width: 270px;
 	font-family: 'Oswald';
 	font-size: 28px;
 	font-weight: 400;

@@ -20,6 +20,13 @@
 }
 
 @font-face {
+	font-family: 'Sans';
+	font-style: light;
+	font-weight: 300;
+	src: local('Sans'), url('./fira-sans/FiraSans-Light.ttf') format('truetype');
+}
+
+@font-face {
 	font-family: 'Oswald';
 	font-style: bold;
 	font-weight: 700;

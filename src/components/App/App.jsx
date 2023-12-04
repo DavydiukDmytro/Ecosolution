@@ -1,6 +1,7 @@
 import { Container } from '../Container';
 import { Header } from '../Header';
 import { SectionAbout } from '../SectionAbout';
+import SectionCases from '../SectionCases/SectionCases';
 import { SectionElectricity } from '../SectionElectricity';
 import { SectionMain } from '../SectionMain';
 
@@ -13,6 +14,7 @@ export const App = () => {
 					<SectionMain />
 					<SectionAbout />
 					<SectionElectricity />
+					<SectionCases />
 				</main>
 			</Container>
 		</>

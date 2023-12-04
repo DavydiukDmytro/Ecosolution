@@ -12,6 +12,7 @@ import {
 } from './Menu.styled';
 import { useEffect } from 'react';
 import { MenuItem } from '../MenuItem';
+import PropTypes from 'prop-types';
 
 const modalRoot = document.getElementById('modal-root');
 
@@ -76,4 +77,8 @@ export const Menu = ({ closeMenu }) => {
 		</Overlay>,
 		modalRoot
 	);
+};
+
+Menu.propTypes = {
+	closeMenu: PropTypes.func.isRequired,
 };

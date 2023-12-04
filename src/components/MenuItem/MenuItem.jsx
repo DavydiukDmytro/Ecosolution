@@ -1,7 +1,7 @@
 import { ItemMenu, Link, LinkText } from './MenuItem.styled';
 import svgSprite from '../../assets/images/svgSprite.svg';
+import PropTypes from 'prop-types';
 
-// eslint-disable-next-line react/prop-types
 export const MenuItem = ({ element }) => {
 	return (
 		<ItemMenu>
@@ -13,4 +13,8 @@ export const MenuItem = ({ element }) => {
 			</Link>
 		</ItemMenu>
 	);
+};
+
+MenuItem.propTypes = {
+	element: PropTypes.string.isRequired,
 };
