@@ -68,7 +68,7 @@ export const SectionAbout = () => {
 							media='(min-width: 1280px)'
 							srcSet={`${windFarmsL1x} 1x, ${windFarmsL2x} 2x, ${windFarmsL3x} 3x`}
 						/>
-						<Img src={`${windFarmsL1x}`} alt='Wind turbine clean energy' />
+						<Img src={`${windFarmsL1x}`} alt='Wind farms fields' />
 					</picture>
 				</Item>
 				<Item vision={true}>
@@ -81,7 +81,7 @@ export const SectionAbout = () => {
 							media='(min-width: 1280px)'
 							srcSet={`${solarPanelsL1x} 1x, ${solarPanelsL2x} 2x, ${solarPanelsL3x} 3x`}
 						/>
-						<Img src={`${windFarmsL1x}`} alt='Wind turbine clean energy' />
+						<Img src={`${windFarmsL1x}`} alt='Man worker firld by solar panels' />
 					</picture>
 				</Item>
 				<Item>

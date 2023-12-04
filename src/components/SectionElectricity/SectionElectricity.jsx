@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Section } from '../Section';
 import { Counter, Title, Units } from './SectionElectricity.styled';
+import { formatNumberWithCommas } from '../../utils/formatNumberWithCommas';
 
 export const SectionElectricity = () => {
 	const [counter, setCounter] = useState(1134147814);
@@ -12,12 +13,6 @@ export const SectionElectricity = () => {
 
 		return () => clearInterval(interval);
 	}, []);
-
-	const formatNumberWithCommas = (value) => {
-		const parts = value.toString().split('.');
-		parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, '.');
-		return parts.join('.');
-	};
 
 	return (
 		<Section center={true}>
