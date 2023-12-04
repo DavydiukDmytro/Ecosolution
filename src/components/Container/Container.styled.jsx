@@ -4,7 +4,7 @@ export const ContainerMain = styled.div`
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 36px 20px 24px 20px;
+	padding: 0px 20px 24px 20px;
 	${({ menu }) => menu && 'height: 100%; width: 100%;'};
 
 	@media (max-width: 767px) {

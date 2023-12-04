@@ -76,6 +76,7 @@ export const List = styled.ul`
 export const Item = styled.li`
 	padding: 13px 12px;
 	height: 197px;
+	background-color: var(--secondary-bg);
 
 	@media (max-width: 767px) {
 		${({ vision }) =>

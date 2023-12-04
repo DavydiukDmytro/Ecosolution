@@ -31,6 +31,7 @@ export const Description = styled.div`
 
 	padding: 12px;
 	padding-top: 24px;
+	background-color: var(--secondary-bg);
 
 	@media (min-width: 768px) {
 		width: 342px;

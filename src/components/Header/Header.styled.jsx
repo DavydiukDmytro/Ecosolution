@@ -1,15 +1,25 @@
 import styled from '@emotion/styled';
 
 export const HeaderContainer = styled.header`
+	position: fixed;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 360px;
+	padding: 36px 20px 8px 20px;
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 128px;
+	background-color: var(--primary-bg);
+	z-index: 1200;
 
 	@media (min-width: 768px) {
-		margin-bottom: 114px;
+		width: var(--tablet);
+		padding: 36px 30px 8px 30px;
 	}
+
 	@media (min-width: 1280px) {
-		margin-bottom: 140px;
+		width: var(--laptop);
+		padding: 24px 20px 8px 20px;
 	}
 `;
 

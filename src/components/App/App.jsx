@@ -8,15 +8,15 @@ import { SectionMain } from '../SectionMain';
 export const App = () => {
 	return (
 		<>
-			<Container>
-				<Header />
-				<main>
+			<Header />
+			<main>
+				<Container>
 					<SectionMain />
 					<SectionAbout />
 					<SectionElectricity />
 					<SectionCases />
-				</main>
-			</Container>
+				</Container>
+			</main>
 		</>
 	);
 };
