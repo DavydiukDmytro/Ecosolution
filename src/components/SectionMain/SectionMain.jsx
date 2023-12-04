@@ -13,7 +13,7 @@ import windTurbineL3x from '../../assets/images/wind-turbine/laptop/wind-turbine
 
 export const SectionMain = () => {
 	return (
-		<Section hero={true}>
+		<Section name={'main'} hero={true}>
 			<MainWrapper>
 				<Title>RENEWABLE ENERGY For any task</Title>
 				<LearnMoreWrapper>

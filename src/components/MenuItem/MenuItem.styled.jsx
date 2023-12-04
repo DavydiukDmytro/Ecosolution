@@ -6,17 +6,22 @@ export const ItemMenu = styled.li`
 
 export const Link = styled.a`
 	height: 24px;
-	stroke: var(--white);
-	fill: var(--white);
-	color: var(--white);
+	stroke: rgba(255, 255, 255, 0.25);
+	fill: rgba(255, 255, 255, 0.25);
+	color: rgba(255, 255, 255, 0.25);
 
 	${({ socialLink }) => socialLink && `display: inline-block; width: 24px; height: 24px`}
-
+	${({ active }) =>
+		active &&
+		`color: var(--accent);
+		stroke: var(--accent);
+		fill: var(--accent);`}
+		
 	&:hover,
 	&:focus {
-		color: var(--accent);
-		stroke: var(--accent);
-		fill: var(--accent);
+		color: var(--white);
+		stroke: var(--white);
+		fill: var(--white);
 	}
 `;
 

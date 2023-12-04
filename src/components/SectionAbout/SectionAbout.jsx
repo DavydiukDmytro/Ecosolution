@@ -26,7 +26,7 @@ import solarPanelsL3x from '../../assets/images/solar-panels/laptop/solar-panels
 
 export const SectionAbout = () => {
 	return (
-		<Section>
+		<Section name={'about'}>
 			<TitleWrapper>
 				<Title>Main values of our company</Title>
 				<TextForTitle>

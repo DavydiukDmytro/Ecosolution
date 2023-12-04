@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const Button = styled.button`
+export const Link = styled.a`
 	display: flex;
 	align-items: center;
 	margin-top: 24px;

@@ -141,7 +141,7 @@ Private Enterprise “Biotech”`,
 		};
 
 		return (
-			<Section>
+			<Section name={'cases'}>
 				<WrapperTitle>
 					<Title>Successful cases of our company</Title>
 					<NavigationSlider>
@@ -153,12 +153,12 @@ Private Enterprise “Biotech”`,
 							)}`}</CounterTextSpan>{' '}
 						</CounterText>
 						<NavigationButton>
-							<Button onClick={this.prevSlide}>
+							<Button onClick={this.prevSlide} aria-label='Previous card'>
 								<Svg width={36} height={36}>
 									<use xlinkHref={svgSprite + '#icon-arrow-l'} />
 								</Svg>
 							</Button>
-							<Button onClick={this.nextSlide}>
+							<Button onClick={this.nextSlide} aria-label='Next card'>
 								<Svg width={36} height={36}>
 									<use xlinkHref={svgSprite + '#icon-arrow-r'} />
 								</Svg>

@@ -18,8 +18,8 @@ export const Header = () => {
 				<Logo />
 				<ButtonList>
 					<li>
-						<ButtonMenu type='button' onClick={() => setIsOpenMenu(true)}>
-							<img width={16} height={16} src={menu} />
+						<ButtonMenu type='button' aria-label='Open menu' onClick={() => setIsOpenMenu(true)}>
+							<img width={16} height={16} src={menu} alt='Icon menu' />
 						</ButtonMenu>
 					</li>
 					<li>
